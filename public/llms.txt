@@ -1,0 +1,20 @@
+# Saraba Restaurant Africain
+
+> Restaurant africain et sénégalais au 13 rue des Majots, 80000 Amiens (France), quartier Saint-Leu, près de l'église Saint-Leu. Ouvert le soir du mardi au samedi, de 19 h à minuit ; fermé le dimanche et le lundi. Réservation conseillée le week-end. Téléphone : 03 22 45 17 69.
+
+- Note Google : 4,7/5 sur 148 avis (relevée le 10 novembre 2026)
+- Spécialités : mafé de bœuf (sauce arachide), yassa poulet, thiou gombo, mafé gombo, bœuf curry (14 € sur place), bar ou dorade selon l'arrivage (18 €)
+- Entrées : accras, alokos, ailes de poulet, pastels (7 €) ; planche à partager 14 € (2 garnitures) ou 21 € (3 garnitures)
+- À emporter : mafé, yassa, bœuf curry à 12 € (sauf poissons) ; doggy bag sur demande
+- Groupes et anniversaires à partir de 8 personnes, sur réservation
+- Bon cadeau du montant de son choix, à retirer au restaurant
+- Paiement : espèces, carte bancaire, sans contact
+
+## Pages
+
+- [Accueil (français)](https://saraba-amiens.vercel.app/fr)
+- [La carte et les prix](https://saraba-amiens.vercel.app/fr/carte)
+- [Restaurant africain à Amiens](https://saraba-amiens.vercel.app/fr/restaurant-africain-amiens)
+- [Mafé à Amiens](https://saraba-amiens.vercel.app/fr/mafe-amiens)
+- [Bon cadeau](https://saraba-amiens.vercel.app/fr/bon-cadeau)
+- [English version](https://saraba-amiens.vercel.app/en)

@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "title": "Restaurant africain à Amiens, rue des Majots | Saraba",
+    "description": "Saraba, restaurant africain et sénégalais à Saint-Leu, Amiens : mafé, yassa, thiou, poisson selon l'arrivage. Le soir, du mardi au samedi. Réservez en ligne.",
+    "ogAlt": "Saraba, restaurant africain rue des Majots à Amiens"
+  },
+  "nav": {
+    "skip": "Aller au contenu",
+    "menu": "Menu",
+    "close": "Fermer le menu",
+    "home": "Saraba, accueil",
+    "carte": "La carte",
+    "book": "Réserver",
+    "groups": "Groupes",
+    "infos": "Infos",
+    "gift": "Bon cadeau",
+    "call": "Appeler",
+    "directions": "Itinéraire",
+    "bookCta": "Réserver une table",
+    "lang": "Langue",
+    "facebook": "Saraba sur Facebook"
+  },
+  "announce": {
+    "close": "Fermer l'annonce"
+  },
+  "intro": {
+    "skip": "Passer",
+    "line": "RESTAURANT AFRICAIN · AMIENS"
+  },
+  "hero": {
+    "eyebrow": "Restaurant africain · rue des Majots, Amiens",
+    "title": "Un voyage dans l'assiette",
+    "lead": "Mafé, yassa, thiou gombo et poisson selon l'arrivage, servis le soir dans une petite salle de Saint-Leu, à deux pas de l'église.",
+    "ctaBook": "Réserver une table",
+    "ctaMenu": "Voir la carte",
+    "rating": "{value}/5 sur Google",
+    "ratingCount": "{count} avis",
+    "imageAlt": "La salle du Saraba le soir : murs de bambou, masques sculptés et l'ardoise du jour devant la fenêtre"
+  },
+  "tiles": {
+    "title": "Ce soir, à la carte",
+    "entrees": "Entrées",
+    "entreesSub": "Accras, alokos, pastels",
+    "plats": "Plats",
+    "platsSub": "Mafé, yassa, thiou",
+    "poissons": "Poissons & grillades",
+    "poissonsSub": "Bar ou dorade",
+    "desserts": "Desserts",
+    "dessertsSub": "Fondant, glaces",
+    "boissons": "Boissons",
+    "boissonsSub": "Jus maison, softs"
+  },
+  "services": {
+    "title": "Le Saraba en bref",
+    "soir": {
+      "title": "Le soir",
+      "text": "Du mardi au samedi, de 19 h à minuit."
+    },
+    "reservation": {
+      "title": "Sur réservation",
+      "text": "En ligne en deux minutes, ou par téléphone."
+    },
+    "groupes": {
+      "title": "Groupes",
+      "text": "Anniversaires et tablées dès 8 personnes."
+    },
+    "emporter": {
+      "title": "À emporter",
+      "text": "Mafé, yassa et curry à 12 €."
+    }
+  },
+  "carte": {
+    "eyebrow": "La carte",
+    "title": "Les plats de la maison",
+    "lead": "Une carte courte, cuisinée chaque soir. La viande est d'origine France.",
+    "tabsLabel": "Rubriques de la carte",
+    "categories": {
+      "entrees": "Entrées",
+      "plats": "Plats",
+      "poissons": "Poissons",
+      "desserts": "Desserts",
+      "boissons": "Boissons"
+    },
+    "intro": {
+      "entrees": "Pour commencer, ou pour partager à plusieurs avec une planche.",
+      "plats": "Les grands classiques mijotés, servis généreusement. Tous à 14 € sur place.",
+      "poissons": "Grillés entiers, selon l'arrivage du jour. Sur place uniquement.",
+      "desserts": "Une petite douceur pour finir.",
+      "boissons": "Les boissons et leurs prix sont à demander en salle, la carte arrive bientôt ici."
+    },
+    "items": {
+      "accras": {
+        "name": "Accras",
+        "desc": "Petits beignets croustillants, à partager ou non."
+      },
+      "alokos": {
+        "name": "Alokos",
+        "desc": "Bananes plantains frites, dorées et fondantes."
+      },
+      "ailes-poulet": {
+        "name": "Ailes de poulet",
+        "desc": "Marinées et grillées."
+      },
+      "pastels": {
+        "name": "Pastels",
+        "desc": "Chaussons frits farcis, servis avec leur sauce."
+      },
+      "planche": {
+        "name": "Planche à partager",
+        "desc": "Deux ou trois garnitures au choix : 14 € ou 21 €."
+      },
+      "mafe-boeuf": {
+        "name": "Mafé de bœuf",
+        "desc": "Le plat que l'on vient manger ici : bœuf mijoté dans une sauce à l'arachide."
+      },
+      "yassa-poulet": {
+        "name": "Yassa poulet",
+        "desc": "Poulet mariné au citron, confit d'oignons."
+      },
+      "thiou-gombo": {
+        "name": "Thiou gombo",
+        "desc": "Ragoût mijoté au gombo."
+      },
+      "mafe-gombo": {
+        "name": "Mafé gombo",
+        "desc": "Le mafé, avec du gombo."
+      },
+      "boeuf-curry": {
+        "name": "Bœuf curry",
+        "desc": "Bœuf mijoté au curry."
+      },
+      "poisson-arrivage": {
+        "name": "Bar ou dorade",
+        "desc": "Grillé entier, selon l'arrivage."
+      },
+      "bourekhe": {
+        "name": "Bourekhé",
+        "desc": "Spécialité de poisson de la maison."
+      },
+      "fondant": {
+        "name": "Fondant au chocolat",
+        "desc": ""
+      },
+      "glaces": {
+        "name": "Glaces",
+        "desc": "Deux boules 3 €, trois boules 4,50 €."
+      },
+      "jus-maison": {
+        "name": "Jus maison",
+        "desc": "Selon le jour, demandez ce qui est prêt."
+      },
+      "softs": {
+        "name": "Sodas",
+        "desc": ""
+      },
+      "eaux": {
+        "name": "Eaux plates et gazeuses",
+        "desc": ""
+      },
+      "boissons-chaudes": {
+        "name": "Café et thé",
+        "desc": ""
+      }
+    },
+    "signature": "La spécialité",
+    "veg": "Végétarien",
+    "priceInRoom": "Prix en salle",
+    "from": "à partir de",
+    "takeaway": "{price} à emporter",
+    "checked": "Prix relevés le {date}, à titre indicatif : la carte du jour fait foi.",
+    "seeAll": "Voir toute la carte",
+    "takeawayNote": "À emporter : mafé, yassa et bœuf curry à 12 €. Les poissons se dégustent sur place."
+  },
+  "news": {
+    "eyebrow": "En ce moment",
+    "title": "Au Saraba cette semaine"
+  },
+  "blocks": {
+    "specialites": {
+      "eyebrow": "Les spécialités",
+      "title": "Le mafé, et tout ce qui l'entoure",
+      "text": "Sauce à l'arachide longuement mijotée, poulet yassa au citron, thiou au gombo : des plats généreux, cuisinés comme à la maison. Et s'il en reste, on vous prépare de quoi emporter.",
+      "cta": "Voir la carte",
+      "imageAlt": "L'ardoise du Saraba : mafé bœuf, yassa poulet, thiou gombo, mafé gombo et bœuf curry"
+    },
+    "groupes": {
+      "eyebrow": "Groupes & anniversaires",
+      "title": "À plusieurs, c'est encore meilleur",
+      "text": "Un anniversaire, une sortie entre collègues, une grande famille ? Dès 8 personnes, dites-nous l'occasion : on prépare la table et on compose le repas avec vous.",
+      "cta": "Réserver",
+      "panelBig": "Dès 8",
+      "panelSmall": "personnes, sur réservation"
+    },
+    "histoire": {
+      "eyebrow": "Notre histoire",
+      "title": "Une petite salle à Saint-Leu",
+      "text": "Rue des Majots, à deux pas de l'église Saint-Leu : des murs de bambou, des masques sculptés, une ardoise écrite à la main, et un accueil qui revient dans tous les avis. L'histoire du Saraba, nous la raconterons bientôt avec les mots de la maison.",
+      "cta": "Nous trouver",
+      "imageAlt": "Le chevalet du Saraba dans la rue, devant les pierres de l'église Saint-Leu"
+    }
+  },
+  "book": {
+    "eyebrow": "Réservation",
+    "title": "Réserver une table",
+    "lead": "Choisissez votre soir et votre heure. Nous confirmons par téléphone ou par e-mail. Pour ce soir même, le plus simple reste d'appeler.",
+    "date": "Date",
+    "chooseDate": "Choisir un soir",
+    "time": "Heure d'arrivée",
+    "chooseTime": "Choisir une heure",
+    "noTimes": "Plus de créneau ce soir-là, essayez un autre jour.",
+    "guests": "Nombre de personnes",
+    "occasion": "Occasion (facultatif)",
+    "occasions": {
+      "none": "Pas d'occasion particulière",
+      "birthday": "Anniversaire",
+      "family": "Repas de famille",
+      "company": "Sortie entre collègues",
+      "other": "Autre"
+    },
+    "groupHint": "À partir de {n} personnes, nous vous rappelons pour organiser la table et le repas.",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "message": "Message (facultatif)",
+    "messagePh": "Allergie, chaise haute, poisson à mettre de côté…",
+    "submit": "Envoyer ma demande",
+    "sending": "Envoi…",
+    "callInstead": "ou appelez-nous au",
+    "privacy": "Vos coordonnées servent uniquement à confirmer cette réservation. Elles ne sont ni conservées ni transmises.",
+    "errors": {
+      "date": "Choisissez un soir.",
+      "time": "Choisissez une heure.",
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide.",
+      "email": "Indiquez une adresse e-mail valide.",
+      "server": "La demande n'est pas partie. Réessayez, ou appelez-nous directement."
+    },
+    "done": {
+      "title": "Merci, c'est noté",
+      "text": "{name}, votre demande pour {when} est bien arrivée chez nous.",
+      "mail": "Un récapitulatif vient de partir dans votre boîte e-mail. Nous vous confirmons la table au plus vite.",
+      "notSent": "Pour être sûr d'avoir votre table, appelez-nous pour confirmer : nous n'avons pas encore pu recevoir la demande par e-mail.",
+      "again": "Faire une autre demande"
+    },
+    "mail": {
+      "subject": "Demande de réservation",
+      "title": "Nouvelle demande de réservation",
+      "when": "Quand",
+      "guests": "Personnes",
+      "occasion": "Occasion",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "message": "Message",
+      "lang": "Langue du client",
+      "confirmSubject": "Saraba : nous avons bien reçu votre demande",
+      "confirmIntro": "Bonjour {name},\n\nMerci pour votre demande de réservation au Saraba. La voici :",
+      "confirmOutro": "Nous vous confirmons la table très vite, par téléphone ou par e-mail. Pour toute question : 03 22 45 17 69.\n\nÀ bientôt rue des Majots,\nL'équipe du Saraba\n13 rue des Majots, 80000 Amiens"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Vos avis",
+    "title": "Ce que l'on retient de vos soirées",
+    "themes": [
+      "Le mafé",
+      "L'impression de voyage",
+      "Le sourire de l'accueil",
+      "Les spécialités",
+      "Le doggy bag"
+    ],
+    "themesLead": "Ce qui revient le plus souvent dans vos avis Google :",
+    "count": "{count} avis Google",
+    "checked": "Note relevée le {date}.",
+    "cta": "Lire les avis sur Google",
+    "empty": "Bientôt ici : quelques-uns de vos avis, avec votre accord."
+  },
+  "infos": {
+    "eyebrow": "Infos pratiques",
+    "title": "Nous trouver",
+    "address": "Adresse",
+    "directions": "Itinéraire",
+    "phone": "Téléphone",
+    "access": "Accès",
+    "accessText": "Dans le quartier Saint-Leu, à deux pas de l'église Saint-Leu et à dix minutes à pied de la cathédrale.",
+    "parking": "Stationnement",
+    "parkingText": "Les rues de Saint-Leu sont en partie piétonnes : garez-vous dans un parking du centre-ville et finissez à pied.",
+    "accessibility": "Accessibilité",
+    "accessibilityText": "Salle accessible aux personnes à mobilité réduite.",
+    "payment": "Paiement",
+    "paymentText": "Espèces, carte bancaire et sans contact.",
+    "hours": "Horaires",
+    "hoursNote": "Fermetures exceptionnelles annoncées en haut du site.",
+    "days": [
+      "Lundi",
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi",
+      "Samedi",
+      "Dimanche"
+    ],
+    "closed": "Fermé",
+    "mapTitle": "Plan d'accès au Saraba, 13 rue des Majots, Amiens"
+  },
+  "status": {
+    "open": "Ouvert maintenant",
+    "until": "jusqu'à {time}",
+    "closed": "Fermé",
+    "opens": "ouvre {day} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain"
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Bon à savoir",
+    "items": [
+      {
+        "q": "Faut-il réserver ?",
+        "a": "C'est conseillé, surtout le vendredi et le samedi : la salle est petite. Réservez en ligne ou appelez le 03 22 45 17 69."
+      },
+      {
+        "q": "Quels sont vos horaires ?",
+        "a": "Le Saraba est ouvert le soir, du mardi au samedi, de 19 h à minuit. Fermé le dimanche et le lundi."
+      },
+      {
+        "q": "Peut-on emporter les plats ?",
+        "a": "Oui : mafé, yassa et bœuf curry sont à 12 € à emporter. Appelez pour commander. Les poissons se dégustent sur place. Et si vous n'avez pas fini votre assiette, on vous prépare un doggy bag."
+      },
+      {
+        "q": "Accueillez-vous les groupes et les anniversaires ?",
+        "a": "Avec plaisir. À partir de 8 personnes, faites une demande en indiquant l'occasion : nous vous rappelons pour organiser la table et le repas."
+      },
+      {
+        "q": "Quels moyens de paiement acceptez-vous ?",
+        "a": "Espèces, carte bancaire et paiement sans contact."
+      },
+      {
+        "q": "Comment venir et où se garer ?",
+        "a": "Nous sommes au 13 rue des Majots, dans le quartier Saint-Leu, près de l'église. Le quartier est en partie piéton : le plus simple est de se garer dans un parking du centre-ville et de finir à pied."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Restaurant africain à Saint-Leu, Amiens. Cuisine sénégalaise et spécialités d'Afrique de l'Ouest, le soir du mardi au samedi.",
+    "rights": "© {year} Saraba Restaurant Africain",
+    "legal": "Mentions légales",
+    "menu": "La carte",
+    "gift": "Bon cadeau",
+    "pages": "À découvrir",
+    "africain": "Restaurant africain à Amiens",
+    "mafe": "Mafé à Amiens"
+  },
+  "pages": {
+    "carte": {
+      "metaTitle": "La carte et les prix | Saraba, restaurant africain à Amiens",
+      "metaDescription": "La carte du Saraba avec les prix : accras, pastels, mafé de bœuf, yassa poulet, thiou gombo, bar ou dorade selon l'arrivage. Plats à emporter à 12 €.",
+      "title": "La carte"
+    },
+    "africain": {
+      "metaTitle": "Restaurant africain à Amiens, quartier Saint-Leu | Saraba",
+      "metaDescription": "Envie de cuisine africaine à Amiens ? Le Saraba, rue des Majots à Saint-Leu, sert mafé, yassa et poisson grillé du mardi au samedi soir. Réservez en ligne.",
+      "eyebrow": "Restaurant africain · Amiens",
+      "title": "Un restaurant africain au cœur de Saint-Leu",
+      "lead": "Au 13 rue des Majots, le Saraba cuisine chaque soir les grands plats d'Afrique de l'Ouest, avec une préférence pour le Sénégal.",
+      "sections": [
+        {
+          "h": "Une cuisine sénégalaise, généreuse et mijotée",
+          "p": "Mafé de bœuf à l'arachide, yassa poulet au citron et aux oignons, thiou au gombo, bœuf curry : des plats qui prennent leur temps, servis copieusement. En entrée, accras, alokos et pastels se partagent volontiers."
+        },
+        {
+          "h": "Dans le quartier Saint-Leu",
+          "p": "La salle est petite et chaleureuse : murs de bambou, masques sculptés, ardoise écrite à la main. On y vient entre amis, en famille ou à deux, et beaucoup repartent avec l'envie de revenir, ou avec un doggy bag."
+        },
+        {
+          "h": "Le soir, du mardi au samedi",
+          "p": "Le Saraba ouvre de 19 h à minuit, du mardi au samedi. Le week-end, mieux vaut réserver : en ligne en deux minutes ou au 03 22 45 17 69."
+        }
+      ]
+    },
+    "mafe": {
+      "metaTitle": "Mafé à Amiens : le mafé de bœuf du Saraba, rue des Majots",
+      "metaDescription": "Où manger un bon mafé à Amiens ? Au Saraba, le mafé de bœuf à l'arachide est la spécialité de la maison : 14 € sur place, 12 € à emporter.",
+      "eyebrow": "Mafé · Amiens",
+      "title": "Le mafé du Saraba",
+      "lead": "C'est le plat dont on parle le plus dans les avis : un mafé de bœuf mijoté dans une sauce à l'arachide, servi généreusement.",
+      "sections": [
+        {
+          "h": "Qu'est-ce que le mafé ?",
+          "p": "Le mafé est un plat d'Afrique de l'Ouest, très populaire au Sénégal et au Mali : une viande mijotée longuement dans une sauce à base de pâte d'arachide et de tomate. Au Saraba, il se décline aussi en mafé gombo."
+        },
+        {
+          "h": "Sur place ou à emporter",
+          "p": "Le mafé de bœuf est à 14 € en salle et à 12 € à emporter. Pour l'emporter, appelez-nous au 03 22 45 17 69 : il sera prêt à votre arrivée."
+        },
+        {
+          "h": "Et pour l'accompagner",
+          "p": "Commencez par des accras ou des alokos, et finissez sur un fondant au chocolat. Les curieux goûteront ensuite le yassa poulet ou le thiou gombo."
+        }
+      ]
+    },
+    "gift": {
+      "metaTitle": "Bon cadeau | Saraba, restaurant africain à Amiens",
+      "metaDescription": "Offrez un dîner au Saraba, restaurant africain rue des Majots à Amiens : bon cadeau du montant de votre choix, à retirer au restaurant.",
+      "eyebrow": "Bon cadeau",
+      "title": "Offrir un dîner au Saraba",
+      "lead": "Pour un anniversaire, un merci ou l'envie de faire découvrir le mafé : offrez un bon cadeau du montant de votre choix.",
+      "steps": [
+        {
+          "h": "Appelez-nous",
+          "p": "Dites-nous le montant et le nom de la personne à qui vous l'offrez."
+        },
+        {
+          "h": "Passez le chercher",
+          "p": "Le bon vous attend au restaurant, à régler sur place, le soir du mardi au samedi."
+        },
+        {
+          "h": "Offrez",
+          "p": "Il ne reste plus qu'à réserver une table. Valable sur toute la carte."
+        }
+      ],
+      "note": "Pas de paiement en ligne : tout se règle au restaurant."
+    },
+    "legal": {
+      "metaTitle": "Mentions légales | Saraba",
+      "title": "Mentions légales",
+      "editor": "Éditeur du site",
+      "editorText": "Saraba Restaurant Africain, 13 rue des Majots, 80000 Amiens. Téléphone : 03 22 45 17 69.",
+      "company": "Société",
+      "rcs": "Immatriculation",
+      "siret": "SIRET",
+      "director": "Directeur de la publication",
+      "host": "Hébergement",
+      "data": "Données personnelles",
+      "dataText": "Les informations envoyées par le formulaire de réservation servent uniquement à traiter votre demande. Elles sont transmises par e-mail au restaurant et ne sont pas stockées sur le site. Vous pouvez demander leur suppression en écrivant ou en appelant le restaurant.",
+      "cookies": "Cookies",
+      "cookiesText": "Le site n'utilise ni cookie publicitaire ni outil de mesure d'audience. Seul un petit cookie retient la langue choisie. La carte Google Maps n'est chargée que lorsque vous descendez jusqu'à elle.",
+      "photos": "Photos",
+      "photosText": "Photos du restaurant. Toute reproduction est interdite sans accord.",
+      "pending": "À compléter"
+    }
+  },
+  "alt": {
+    "salle-ardoise-nuit": "La salle du Saraba le soir : murs de bambou, masques sculptés et l'ardoise du jour devant la fenêtre",
+    "ardoise-plats": "L'ardoise du Saraba : mafé bœuf, yassa poulet, thiou gombo, mafé gombo et bœuf curry",
+    "salle-masques-bambou": "Masques sculptés sur les murs de bambou de la salle du Saraba",
+    "chevalet-rue": "Le chevalet du Saraba dans la rue, devant les pierres de l'église Saint-Leu"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Saraba",
+  "fullName": "Saraba Restaurant Africain",
+  "url": "https://saraba-amiens.vercel.app",
+  "phone": "03 22 45 17 69",
+  "phoneIntl": "+33322451769",
+  "whatsapp": "",
+  "email": "",
+  "address": { "street": "13 rue des Majots", "postalCode": "80000", "city": "Amiens", "district": "Saint-Leu", "region": "Hauts-de-France", "country": "FR" },
+  "geo": { "lat": 49.8974284, "lng": 2.3014725 },
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Saraba+Restaurant+Africain+13+rue+des+Majots+80000+Amiens",
+  "mapsEmbed": "https://www.google.com/maps?q=Saraba+Restaurant+Africain,+13+rue+des+Majots,+80000+Amiens&z=16&output=embed",
+  "reviewsUrl": "https://www.google.com/maps/search/?api=1&query=Saraba+Restaurant+Africain+Amiens",
+  "facebook": "https://www.facebook.com/pages/Saraba/885633921593516",
+  "rating": { "value": 4.7, "count": 148, "source": "Google", "checked": "2026-11-10" },
+  "reservation": { "maxGuests": 30, "groupFrom": 8, "lastSeatingMinutes": 90, "stepMinutes": 15 },
+  "legal": { "company": "Le Saraba, capital social 3 000 €", "rcs": "RCS Amiens 823 315 643", "siret": "", "director": "M. Matar Diallo", "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis" }
+}

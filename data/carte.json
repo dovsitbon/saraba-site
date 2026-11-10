@@ -1,0 +1,31 @@
+{
+  "_doc": "La carte (une page, des onglets). Prix relevés sur l'ardoise du restaurant (photo publique, assets/raw/saraba_ardoise-salle-nuit.jpg) : À CONFIRMER, ils ont pu changer. price: null = « prix en salle » (à remplir). from: true = « à partir de ». takeaway: prix à emporter. image: chemin dans public/media (npm run media) ou null = dessin au trait en attendant la photo. confirm: true = intitulé à vérifier avec le restaurant. Noms et descriptions : locales/*.json → carte.items.<id>.",
+  "checked": "2026-11-10",
+  "categories": [
+    { "id": "entrees", "items": ["accras", "alokos", "ailes-poulet", "pastels", "planche"] },
+    { "id": "plats", "items": ["mafe-boeuf", "yassa-poulet", "thiou-gombo", "mafe-gombo", "boeuf-curry"] },
+    { "id": "poissons", "items": ["poisson-arrivage", "bourekhe"] },
+    { "id": "desserts", "items": ["fondant", "glaces"] },
+    { "id": "boissons", "items": ["jus-maison", "softs", "eaux", "boissons-chaudes"] }
+  ],
+  "items": {
+    "accras": { "price": 7, "image": null, "illustration": "beignets" },
+    "alokos": { "price": 7, "image": null, "illustration": "alokos", "veg": true },
+    "ailes-poulet": { "price": 7, "image": null, "illustration": "ailes" },
+    "pastels": { "price": 7, "image": null, "illustration": "pastels" },
+    "planche": { "price": 14, "from": true, "image": null, "illustration": "planche" },
+    "mafe-boeuf": { "price": 14, "takeaway": 12, "image": null, "illustration": "marmite", "signature": true },
+    "yassa-poulet": { "price": 14, "takeaway": 12, "image": null, "illustration": "assiette", "signature": true },
+    "thiou-gombo": { "price": 14, "image": null, "illustration": "marmite" },
+    "mafe-gombo": { "price": 14, "image": null, "illustration": "marmite" },
+    "boeuf-curry": { "price": 14, "takeaway": 12, "image": null, "illustration": "assiette" },
+    "poisson-arrivage": { "price": 18, "image": null, "illustration": "poisson" },
+    "bourekhe": { "price": 18, "image": null, "illustration": "poisson", "confirm": true },
+    "fondant": { "price": 5, "image": null, "illustration": "fondant" },
+    "glaces": { "price": 3, "from": true, "image": null, "illustration": "glace" },
+    "jus-maison": { "price": null, "image": null, "illustration": "verre", "confirm": true },
+    "softs": { "price": null, "image": null, "illustration": "verre" },
+    "eaux": { "price": null, "image": null, "illustration": "verre" },
+    "boissons-chaudes": { "price": null, "image": null, "illustration": "tasse" }
+  }
+}

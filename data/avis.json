@@ -1,0 +1,4 @@
+{
+  "_doc": "À REMPLIR avec de vrais avis clients. Ne jamais inventer d'avis. On pourra reprendre de vrais avis Google avec l'accord du restaurant. Format : { \"name\": \"Prénom N.\", \"date\": \"2026-10\", \"source\": \"Google\", \"text\": { \"fr\": \"…\", \"en\": \"…\" } }. Tant que la liste est vide, la section affiche la note Google et trois emplacements discrets.",
+  "items": []
+}

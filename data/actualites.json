@@ -1,0 +1,29 @@
+{
+  "_doc": "Les 3 cartes « En ce moment » de l'accueil (plats du moment, soirées, annonces). Les 3 premières (active ≠ false) s'affichent. date : AAAA-MM-JJ. image : chemin dans public/media ou null (motif wax en attendant la photo). Textes en fr et en.",
+  "items": [
+    {
+      "id": "poisson-arrivage",
+      "date": "2026-11-10",
+      "kind": { "fr": "Selon l'arrivage", "en": "Catch of the day" },
+      "title": { "fr": "Bar ou dorade, selon la pêche", "en": "Sea bass or sea bream, as it comes in" },
+      "text": { "fr": "Le poisson change avec l'arrivage. Demandez-nous ce qui est arrivé, ou précisez-le en réservant.", "en": "The fish depends on the catch. Ask us what came in, or mention it when you book." },
+      "image": null
+    },
+    {
+      "id": "thiou-gombo",
+      "date": "2026-11-10",
+      "kind": { "fr": "Plat du moment", "en": "Dish of the moment" },
+      "title": { "fr": "Le thiou gombo", "en": "Thiou with okra" },
+      "text": { "fr": "Un plat mijoté au gombo, à goûter quand on connaît déjà le mafé et le yassa.", "en": "A slow-cooked okra dish, the one to try once you know mafé and yassa." },
+      "image": null
+    },
+    {
+      "id": "anniversaires",
+      "date": "2026-11-10",
+      "kind": { "fr": "Groupes", "en": "Groups" },
+      "title": { "fr": "Anniversaires et grandes tablées", "en": "Birthdays and big tables" },
+      "text": { "fr": "À partir de 8 personnes, dites-nous l'occasion : on prépare la table et le repas avec vous.", "en": "From 8 guests, tell us the occasion and we'll plan the table and the meal with you." },
+      "image": null
+    }
+  ]
+}

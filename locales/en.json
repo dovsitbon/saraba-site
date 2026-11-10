@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "title": "African restaurant in Amiens, rue des Majots | Saraba",
+    "description": "Saraba, African and Senegalese restaurant in Saint-Leu, Amiens: mafé, yassa, thiou, fish of the day. Evenings, Tuesday to Saturday. Book your table online.",
+    "ogAlt": "Saraba, African restaurant on rue des Majots in Amiens"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "close": "Close menu",
+    "home": "Saraba, home",
+    "carte": "Menu",
+    "book": "Book",
+    "groups": "Groups",
+    "infos": "Info",
+    "gift": "Gift voucher",
+    "call": "Call",
+    "directions": "Directions",
+    "bookCta": "Book a table",
+    "lang": "Language",
+    "facebook": "Saraba on Facebook"
+  },
+  "announce": {
+    "close": "Close announcement"
+  },
+  "intro": {
+    "skip": "Skip",
+    "line": "AFRICAN RESTAURANT · AMIENS"
+  },
+  "hero": {
+    "eyebrow": "African restaurant · rue des Majots, Amiens",
+    "title": "A journey on a plate",
+    "lead": "Mafé, yassa, thiou with okra and fish of the day, served in the evening in a small dining room in Saint-Leu, a stone's throw from the church.",
+    "ctaBook": "Book a table",
+    "ctaMenu": "See the menu",
+    "rating": "{value}/5 on Google",
+    "ratingCount": "{count} reviews",
+    "imageAlt": "Saraba's dining room at night: bamboo walls, carved masks and the day's chalkboard by the window"
+  },
+  "tiles": {
+    "title": "Tonight on the menu",
+    "entrees": "Starters",
+    "entreesSub": "Accras, alokos, pastels",
+    "plats": "Mains",
+    "platsSub": "Mafé, yassa, thiou",
+    "poissons": "Fish & grills",
+    "poissonsSub": "Sea bass or sea bream",
+    "desserts": "Desserts",
+    "dessertsSub": "Chocolate fondant, ice cream",
+    "boissons": "Drinks",
+    "boissonsSub": "Homemade juices, soft drinks"
+  },
+  "services": {
+    "title": "Saraba at a glance",
+    "soir": {
+      "title": "Evenings",
+      "text": "Tuesday to Saturday, 7 pm to midnight."
+    },
+    "reservation": {
+      "title": "Bookings",
+      "text": "Online in two minutes, or by phone."
+    },
+    "groupes": {
+      "title": "Groups",
+      "text": "Birthdays and big tables from 8 guests."
+    },
+    "emporter": {
+      "title": "Takeaway",
+      "text": "Mafé, yassa and curry at €12."
+    }
+  },
+  "carte": {
+    "eyebrow": "The menu",
+    "title": "House dishes",
+    "lead": "A short menu, cooked fresh every evening. All meat is from France.",
+    "tabsLabel": "Menu sections",
+    "categories": {
+      "entrees": "Starters",
+      "plats": "Mains",
+      "poissons": "Fish",
+      "desserts": "Desserts",
+      "boissons": "Drinks"
+    },
+    "intro": {
+      "entrees": "To start, or to share with a board for the table.",
+      "plats": "Slow-cooked classics, served generously. All €14 in the restaurant.",
+      "poissons": "Grilled whole, depending on the day's catch. Eat in only.",
+      "desserts": "Something sweet to finish.",
+      "boissons": "Ask for drinks and prices in the restaurant; the full list is coming here soon."
+    },
+    "items": {
+      "accras": {
+        "name": "Accras",
+        "desc": "Small crispy fritters, for sharing or not."
+      },
+      "alokos": {
+        "name": "Alokos",
+        "desc": "Fried plantain, golden and soft."
+      },
+      "ailes-poulet": {
+        "name": "Chicken wings",
+        "desc": "Marinated and grilled."
+      },
+      "pastels": {
+        "name": "Pastels",
+        "desc": "Fried stuffed turnovers, served with their sauce."
+      },
+      "planche": {
+        "name": "Sharing board",
+        "desc": "Two or three sides of your choice: €14 or €21."
+      },
+      "mafe-boeuf": {
+        "name": "Beef mafé",
+        "desc": "The dish people come for: beef slow-cooked in a peanut sauce."
+      },
+      "yassa-poulet": {
+        "name": "Chicken yassa",
+        "desc": "Chicken marinated in lemon, with slow-cooked onions."
+      },
+      "thiou-gombo": {
+        "name": "Thiou with okra",
+        "desc": "Slow-cooked okra stew."
+      },
+      "mafe-gombo": {
+        "name": "Okra mafé",
+        "desc": "Our mafé, with okra."
+      },
+      "boeuf-curry": {
+        "name": "Beef curry",
+        "desc": "Beef slow-cooked in curry."
+      },
+      "poisson-arrivage": {
+        "name": "Sea bass or sea bream",
+        "desc": "Grilled whole, depending on the catch."
+      },
+      "bourekhe": {
+        "name": "Bourekhé",
+        "desc": "The house fish speciality."
+      },
+      "fondant": {
+        "name": "Chocolate fondant",
+        "desc": ""
+      },
+      "glaces": {
+        "name": "Ice cream",
+        "desc": "Two scoops €3, three scoops €4.50."
+      },
+      "jus-maison": {
+        "name": "Homemade juices",
+        "desc": "Changes daily, ask what's ready."
+      },
+      "softs": {
+        "name": "Soft drinks",
+        "desc": ""
+      },
+      "eaux": {
+        "name": "Still and sparkling water",
+        "desc": ""
+      },
+      "boissons-chaudes": {
+        "name": "Coffee and tea",
+        "desc": ""
+      }
+    },
+    "signature": "House speciality",
+    "veg": "Vegetarian",
+    "priceInRoom": "Price in the restaurant",
+    "from": "from",
+    "takeaway": "{price} to take away",
+    "checked": "Prices noted on {date}, for guidance only: the day's chalkboard applies.",
+    "seeAll": "See the full menu",
+    "takeawayNote": "Takeaway: mafé, yassa and beef curry at €12. Fish is served in the restaurant only."
+  },
+  "news": {
+    "eyebrow": "Right now",
+    "title": "This week at Saraba"
+  },
+  "blocks": {
+    "specialites": {
+      "eyebrow": "Specialities",
+      "title": "Mafé, and everything around it",
+      "text": "Slow-simmered peanut sauce, lemony chicken yassa, thiou with okra: generous dishes, cooked the way they are at home. And if there's some left, we'll pack it for you to take away.",
+      "cta": "See the menu",
+      "imageAlt": "Saraba's chalkboard: beef mafé, chicken yassa, thiou with okra, okra mafé and beef curry"
+    },
+    "groupes": {
+      "eyebrow": "Groups & birthdays",
+      "title": "Even better together",
+      "text": "A birthday, a night out with colleagues, a big family dinner? From 8 guests, tell us the occasion: we'll set up the table and plan the meal with you.",
+      "cta": "Book",
+      "panelBig": "From 8",
+      "panelSmall": "guests, by booking"
+    },
+    "histoire": {
+      "eyebrow": "Our story",
+      "title": "A small dining room in Saint-Leu",
+      "text": "On rue des Majots, a stone's throw from Saint-Leu church: bamboo walls, carved masks, a handwritten chalkboard, and a welcome that every review mentions. We'll soon tell Saraba's story in the house's own words.",
+      "cta": "Find us",
+      "imageAlt": "Saraba's street chalkboard, in front of the stones of Saint-Leu church"
+    }
+  },
+  "book": {
+    "eyebrow": "Bookings",
+    "title": "Book a table",
+    "lead": "Pick your evening and time. We confirm by phone or email. For tonight, calling is quickest.",
+    "date": "Date",
+    "chooseDate": "Choose an evening",
+    "time": "Arrival time",
+    "chooseTime": "Choose a time",
+    "noTimes": "No times left that evening, try another day.",
+    "guests": "Number of guests",
+    "occasion": "Occasion (optional)",
+    "occasions": {
+      "none": "No particular occasion",
+      "birthday": "Birthday",
+      "family": "Family meal",
+      "company": "Work night out",
+      "other": "Other"
+    },
+    "groupHint": "From {n} guests, we'll call you back to organise the table and the meal.",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message (optional)",
+    "messagePh": "Allergies, high chair, a fish to keep aside…",
+    "submit": "Send my request",
+    "sending": "Sending…",
+    "callInstead": "or call us on",
+    "privacy": "Your details are only used to confirm this booking. They are neither stored nor shared.",
+    "errors": {
+      "date": "Choose an evening.",
+      "time": "Choose a time.",
+      "name": "Enter your name.",
+      "phone": "Enter a valid phone number.",
+      "email": "Enter a valid email address.",
+      "server": "Your request didn't go through. Try again, or call us directly."
+    },
+    "done": {
+      "title": "Thank you, it's noted",
+      "text": "{name}, your request for {when} has reached us.",
+      "mail": "A summary is on its way to your inbox. We'll confirm your table very soon.",
+      "notSent": "To be sure of your table, please call us to confirm: we couldn't receive the request by email yet.",
+      "again": "Make another request"
+    },
+    "mail": {
+      "subject": "Booking request",
+      "title": "New booking request",
+      "when": "When",
+      "guests": "Guests",
+      "occasion": "Occasion",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "lang": "Customer language",
+      "confirmSubject": "Saraba: we've received your request",
+      "confirmIntro": "Hello {name},\n\nThank you for your booking request at Saraba. Here it is:",
+      "confirmOutro": "We'll confirm your table very soon, by phone or email. Any questions: +33 3 22 45 17 69.\n\nSee you soon on rue des Majots,\nThe Saraba team\n13 rue des Majots, 80000 Amiens, France"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Your reviews",
+    "title": "What you remember from your evenings",
+    "themes": [
+      "The mafé",
+      "The feeling of travelling",
+      "The smiling welcome",
+      "The house specialities",
+      "The doggy bag"
+    ],
+    "themesLead": "What comes up most often in your Google reviews:",
+    "count": "{count} Google reviews",
+    "checked": "Rating noted on {date}.",
+    "cta": "Read the reviews on Google",
+    "empty": "Coming soon: a few of your reviews, with your permission."
+  },
+  "infos": {
+    "eyebrow": "Practical info",
+    "title": "Find us",
+    "address": "Address",
+    "directions": "Directions",
+    "phone": "Phone",
+    "access": "Getting here",
+    "accessText": "In the Saint-Leu quarter, a stone's throw from Saint-Leu church and a ten-minute walk from the cathedral.",
+    "parking": "Parking",
+    "parkingText": "Saint-Leu's streets are partly pedestrian: park in a city-centre car park and finish on foot.",
+    "accessibility": "Accessibility",
+    "accessibilityText": "Wheelchair-accessible dining room.",
+    "payment": "Payment",
+    "paymentText": "Cash, bank card and contactless.",
+    "hours": "Opening hours",
+    "hoursNote": "Exceptional closures are announced at the top of the site.",
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "closed": "Closed",
+    "mapTitle": "Map to Saraba, 13 rue des Majots, Amiens"
+  },
+  "status": {
+    "open": "Open now",
+    "until": "until {time}",
+    "closed": "Closed",
+    "opens": "opens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Good to know",
+    "items": [
+      {
+        "q": "Do I need to book?",
+        "a": "It's a good idea, especially on Fridays and Saturdays: the dining room is small. Book online or call +33 3 22 45 17 69."
+      },
+      {
+        "q": "What are your opening hours?",
+        "a": "Saraba is open in the evening, Tuesday to Saturday, from 7 pm to midnight. Closed on Sundays and Mondays."
+      },
+      {
+        "q": "Can I take dishes away?",
+        "a": "Yes: mafé, yassa and beef curry are €12 to take away. Call us to order. Fish is served in the restaurant only. And if you can't finish your plate, we'll give you a doggy bag."
+      },
+      {
+        "q": "Do you welcome groups and birthdays?",
+        "a": "Gladly. From 8 guests, send a request and mention the occasion: we'll call you back to organise the table and the meal."
+      },
+      {
+        "q": "How can I pay?",
+        "a": "Cash, bank card and contactless."
+      },
+      {
+        "q": "How do I get there and where can I park?",
+        "a": "We're at 13 rue des Majots, in the Saint-Leu quarter, near the church. The area is partly pedestrian, so the easiest is to park in a city-centre car park and walk the last few minutes."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "African restaurant in Saint-Leu, Amiens. Senegalese cooking and West African specialities, Tuesday to Saturday evenings.",
+    "rights": "© {year} Saraba Restaurant Africain",
+    "legal": "Legal notice",
+    "menu": "The menu",
+    "gift": "Gift voucher",
+    "pages": "Discover",
+    "africain": "African restaurant in Amiens",
+    "mafe": "Mafé in Amiens"
+  },
+  "pages": {
+    "carte": {
+      "metaTitle": "Menu and prices | Saraba, African restaurant in Amiens",
+      "metaDescription": "Saraba's menu with prices: accras, pastels, beef mafé, chicken yassa, thiou with okra, sea bass or sea bream of the day. Takeaway dishes at €12.",
+      "title": "The menu"
+    },
+    "africain": {
+      "metaTitle": "African restaurant in Amiens, Saint-Leu quarter | Saraba",
+      "metaDescription": "Looking for African food in Amiens? Saraba, on rue des Majots in Saint-Leu, serves mafé, yassa and grilled fish Tuesday to Saturday evenings. Book online.",
+      "eyebrow": "African restaurant · Amiens",
+      "title": "An African restaurant in the heart of Saint-Leu",
+      "lead": "At 13 rue des Majots, Saraba cooks the great dishes of West Africa every evening, with a soft spot for Senegal.",
+      "sections": [
+        {
+          "h": "Generous, slow-cooked Senegalese food",
+          "p": "Beef mafé in peanut sauce, chicken yassa with lemon and onions, thiou with okra, beef curry: dishes that take their time, served generously. To start, accras, alokos and pastels are made for sharing."
+        },
+        {
+          "h": "In the Saint-Leu quarter",
+          "p": "The dining room is small and warm: bamboo walls, carved masks, a handwritten chalkboard. People come with friends, family or as a couple, and many leave wanting to come back, or with a doggy bag."
+        },
+        {
+          "h": "Evenings, Tuesday to Saturday",
+          "p": "Saraba is open from 7 pm to midnight, Tuesday to Saturday. At weekends it's best to book: online in two minutes or on +33 3 22 45 17 69."
+        }
+      ]
+    },
+    "mafe": {
+      "metaTitle": "Mafé in Amiens: Saraba's beef mafé, rue des Majots",
+      "metaDescription": "Where to eat great mafé in Amiens? At Saraba, beef mafé in peanut sauce is the house speciality: €14 to eat in, €12 to take away.",
+      "eyebrow": "Mafé · Amiens",
+      "title": "Saraba's mafé",
+      "lead": "It's the dish reviewers mention most: beef mafé slow-cooked in a peanut sauce, served generously.",
+      "sections": [
+        {
+          "h": "What is mafé?",
+          "p": "Mafé is a West African dish, very popular in Senegal and Mali: meat slowly simmered in a sauce of peanut paste and tomato. At Saraba it also comes as okra mafé."
+        },
+        {
+          "h": "Eat in or take away",
+          "p": "Beef mafé is €14 in the restaurant and €12 to take away. To take it home, call us on +33 3 22 45 17 69 and it will be ready when you arrive."
+        },
+        {
+          "h": "What goes with it",
+          "p": "Start with accras or alokos and finish with a chocolate fondant. Next time, try the chicken yassa or the thiou with okra."
+        }
+      ]
+    },
+    "gift": {
+      "metaTitle": "Gift voucher | Saraba, African restaurant in Amiens",
+      "metaDescription": "Treat someone to dinner at Saraba, African restaurant on rue des Majots in Amiens: a gift voucher for the amount you choose, collected at the restaurant.",
+      "eyebrow": "Gift voucher",
+      "title": "Give a dinner at Saraba",
+      "lead": "For a birthday, a thank-you or to introduce someone to mafé: give a gift voucher for the amount you choose.",
+      "steps": [
+        {
+          "h": "Call us",
+          "p": "Tell us the amount and the name of the person it's for."
+        },
+        {
+          "h": "Collect it",
+          "p": "Your voucher waits for you at the restaurant, paid on site, Tuesday to Saturday evening."
+        },
+        {
+          "h": "Give it",
+          "p": "All that's left is to book a table. Valid on the whole menu."
+        }
+      ],
+      "note": "No online payment: everything is paid at the restaurant."
+    },
+    "legal": {
+      "metaTitle": "Legal notice | Saraba",
+      "title": "Legal notice",
+      "editor": "Publisher",
+      "editorText": "Saraba Restaurant Africain, 13 rue des Majots, 80000 Amiens, France. Phone: +33 3 22 45 17 69.",
+      "company": "Company",
+      "rcs": "Registration",
+      "siret": "SIRET",
+      "director": "Publication director",
+      "host": "Hosting",
+      "data": "Personal data",
+      "dataText": "Information sent through the booking form is only used to handle your request. It is emailed to the restaurant and not stored on the site. You can ask for it to be deleted by writing to or calling the restaurant.",
+      "cookies": "Cookies",
+      "cookiesText": "The site uses no advertising cookies and no analytics. A small cookie only remembers your language. The Google Maps map only loads when you scroll down to it.",
+      "photos": "Photos",
+      "photosText": "Photos of the restaurant. Do not reproduce without permission.",
+      "pending": "To be completed"
+    }
+  },
+  "alt": {
+    "salle-ardoise-nuit": "Saraba's dining room at night: bamboo walls, carved masks and the day's chalkboard by the window",
+    "ardoise-plats": "Saraba's chalkboard: beef mafé, chicken yassa, thiou with okra, okra mafé and beef curry",
+    "salle-masques-bambou": "Carved masks on the bamboo walls of Saraba's dining room",
+    "chevalet-rue": "Saraba's street chalkboard, in front of the stones of Saint-Leu church"
+  }
+}
