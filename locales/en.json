@@ -169,7 +169,9 @@
     "takeaway": "{price} to take away",
     "checked": "Prices noted on {date}, for guidance only: the day's chalkboard applies.",
     "seeAll": "See the full menu",
-    "takeawayNote": "Takeaway: mafé, yassa and beef curry at €12. Fish is served in the restaurant only."
+    "takeawayNote": "Takeaway: mafé, yassa and beef curry at €12. Fish is served in the restaurant only.",
+    "illusNote": "Photos marked “illustration” do not show Saraba's own dishes; they will be replaced with the restaurant's real photos.",
+    "illusTag": "illustration"
   },
   "news": {
     "eyebrow": "Right now",
@@ -443,6 +445,28 @@
     "salle-ardoise-nuit": "Saraba's dining room at night: bamboo walls, carved masks and the day's chalkboard by the window",
     "ardoise-plats": "Saraba's chalkboard: beef mafé, chicken yassa, thiou with okra, okra mafé and beef curry",
     "salle-masques-bambou": "Carved masks on the bamboo walls of Saraba's dining room",
-    "chevalet-rue": "Saraba's street chalkboard, in front of the stones of Saint-Leu church"
+    "chevalet-rue": "Saraba's street chalkboard, in front of the stones of Saint-Leu church",
+    "mafe-boeuf": "Beef mafé and white rice served at Saraba",
+    "yassa-poulet": "Chicken yassa with onions and rice at Saraba",
+    "planche-entrees": "Saraba starter board: pastels and accras with their sauce",
+    "table-assiettes": "A plate of mafé and glasses on a table at Saraba",
+    "cocktails": "Three colourful lime drinks on a table at Saraba",
+    "bar-masques": "Saraba's counter, painted with large African masks",
+    "accras": "Fritters with a dip (illustration photo)",
+    "alokos": "Fried plantain (illustration photo)",
+    "ailes-poulet": "Fried chicken wings (illustration photo)",
+    "pastels": "Golden fried turnovers (illustration photo)",
+    "thiou-gombo": "African-style stew and rice (illustration photo)",
+    "mafe-gombo": "Sautéed okra (illustration photo)",
+    "boeuf-curry": "Beef curry (illustration photo)",
+    "poisson-grille": "Whole grilled fish on a banana leaf (illustration photo)",
+    "poisson-sauce": "Fish in sauce (illustration photo)",
+    "poisson-citron": "Grilled fish with lemon (illustration photo)",
+    "fondant": "Molten chocolate cake (illustration photo)",
+    "glaces": "Scoops of ice cream (illustration photo)",
+    "jus-rouge": "Red juice in a glass (illustration photo)",
+    "sodas": "Soda bottles (illustration photo)",
+    "eau": "Bottle and glass of water (illustration photo)",
+    "the-menthe": "Mint tea poured into a glass (illustration photo)"
   }
 }

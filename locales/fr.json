@@ -169,7 +169,9 @@
     "takeaway": "{price} à emporter",
     "checked": "Prix relevés le {date}, à titre indicatif : la carte du jour fait foi.",
     "seeAll": "Voir toute la carte",
-    "takeawayNote": "À emporter : mafé, yassa et bœuf curry à 12 €. Les poissons se dégustent sur place."
+    "takeawayNote": "À emporter : mafé, yassa et bœuf curry à 12 €. Les poissons se dégustent sur place.",
+    "illusNote": "Les photos marquées « illustration » ne montrent pas les plats du Saraba : elles seront remplacées par les vraies photos du restaurant.",
+    "illusTag": "illustration"
   },
   "news": {
     "eyebrow": "En ce moment",
@@ -443,6 +445,28 @@
     "salle-ardoise-nuit": "La salle du Saraba le soir : murs de bambou, masques sculptés et l'ardoise du jour devant la fenêtre",
     "ardoise-plats": "L'ardoise du Saraba : mafé bœuf, yassa poulet, thiou gombo, mafé gombo et bœuf curry",
     "salle-masques-bambou": "Masques sculptés sur les murs de bambou de la salle du Saraba",
-    "chevalet-rue": "Le chevalet du Saraba dans la rue, devant les pierres de l'église Saint-Leu"
+    "chevalet-rue": "Le chevalet du Saraba dans la rue, devant les pierres de l'église Saint-Leu",
+    "mafe-boeuf": "Mafé de bœuf et riz blanc servis au Saraba",
+    "yassa-poulet": "Assiette de yassa poulet aux oignons et riz, au Saraba",
+    "planche-entrees": "Planche d'entrées du Saraba : pastels et accras avec leur sauce",
+    "table-assiettes": "Assiette de mafé et verres sur une table du Saraba",
+    "cocktails": "Trois boissons colorées au citron vert sur une table du Saraba",
+    "bar-masques": "Le comptoir du Saraba, peint de grands masques africains",
+    "accras": "Beignets frits et leur sauce (photo d'illustration)",
+    "alokos": "Bananes plantains frites (photo d'illustration)",
+    "ailes-poulet": "Ailes de poulet frites (photo d'illustration)",
+    "pastels": "Chaussons frits dorés (photo d'illustration)",
+    "thiou-gombo": "Ragoût et riz à l'africaine (photo d'illustration)",
+    "mafe-gombo": "Gombos sautés (photo d'illustration)",
+    "boeuf-curry": "Bœuf mijoté au curry (photo d'illustration)",
+    "poisson-grille": "Poisson entier grillé sur feuille de bananier (photo d'illustration)",
+    "poisson-sauce": "Poisson en sauce (photo d'illustration)",
+    "poisson-citron": "Poisson grillé et citron (photo d'illustration)",
+    "fondant": "Fondant au chocolat coulant (photo d'illustration)",
+    "glaces": "Boules de glace (photo d'illustration)",
+    "jus-rouge": "Jus rouge dans un verre (photo d'illustration)",
+    "sodas": "Bouteilles de sodas (photo d'illustration)",
+    "eau": "Bouteille et verre d'eau (photo d'illustration)",
+    "the-menthe": "Thé à la menthe versé dans un verre (photo d'illustration)"
   }
 }

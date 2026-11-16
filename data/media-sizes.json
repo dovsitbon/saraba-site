@@ -14,5 +14,93 @@
  "/media/facade/chevalet-rue.jpg": [
   1000,
   1778
+ ],
+ "/media/plats/mafe-boeuf.jpg": [
+  1300,
+  975
+ ],
+ "/media/plats/yassa-poulet.jpg": [
+  750,
+  1000
+ ],
+ "/media/plats/planche-entrees.jpg": [
+  600,
+  400
+ ],
+ "/media/salle/table-assiettes.jpg": [
+  1400,
+  1050
+ ],
+ "/media/salle/cocktails.jpg": [
+  744,
+  992
+ ],
+ "/media/salle/bar-masques.jpg": [
+  640,
+  362
+ ],
+ "/media/illustrations/accras.jpg": [
+  1200,
+  800
+ ],
+ "/media/illustrations/alokos.jpg": [
+  1200,
+  800
+ ],
+ "/media/illustrations/ailes-poulet.jpg": [
+  1200,
+  1600
+ ],
+ "/media/illustrations/pastels.jpg": [
+  1200,
+  799
+ ],
+ "/media/illustrations/thiou-gombo.jpg": [
+  1200,
+  800
+ ],
+ "/media/illustrations/mafe-gombo.jpg": [
+  1200,
+  1645
+ ],
+ "/media/illustrations/boeuf-curry.jpg": [
+  1200,
+  1600
+ ],
+ "/media/illustrations/poisson-grille.jpg": [
+  1200,
+  800
+ ],
+ "/media/illustrations/poisson-sauce.jpg": [
+  1200,
+  800
+ ],
+ "/media/illustrations/poisson-citron.jpg": [
+  1200,
+  800
+ ],
+ "/media/illustrations/fondant.jpg": [
+  1200,
+  1200
+ ],
+ "/media/illustrations/glaces.jpg": [
+  1200,
+  800
+ ],
+ "/media/illustrations/jus-rouge.jpg": [
+  1200,
+  1800
+ ],
+ "/media/illustrations/sodas.jpg": [
+  1200,
+  1800
+ ],
+ "/media/illustrations/eau.jpg": [
+  1200,
+  1800
+ ],
+ "/media/illustrations/the-menthe.jpg": [
+  1200,
+  1600
  ]
 }

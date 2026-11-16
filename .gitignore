@@ -49,3 +49,6 @@ next-env.d.ts
 
 .vercel
 .env*
+
+# photos candidates (non retenues ou doublons des originaux)
+/assets/candidats/

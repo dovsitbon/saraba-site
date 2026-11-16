@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import site from "@/data/site.json";
 import carte from "@/data/carte.json";
-import { fill, getDict, isLocale, locales, type Dict, type Locale } from "@/lib/i18n";
+import { altOf, fill, getDict, isLocale, locales, type Dict, type Locale } from "@/lib/i18n";
 import { formatDay } from "@/lib/format";
 import { img } from "@/lib/media";
 import { PAGE_IDS, pageOfSlug, pagePath, SLUGS, type PageId } from "@/lib/pages";
@@ -98,8 +98,8 @@ function Carte({ lang, d }: { lang: Locale; d: Dict }) {
 /** Pages SEO locales : « Restaurant africain à Amiens », « Mafé à Amiens ». */
 function Seo({ lang, d, id }: { lang: Locale; d: Dict; id: "africain" | "mafe" }) {
   const p = d.pages[id];
-  const photo = img(id === "mafe" ? "/media/plats/ardoise-plats.jpg" : "/media/hero/salle-ardoise-nuit.jpg");
-  const alt = id === "mafe" ? d.blocks.specialites.imageAlt : d.hero.imageAlt;
+  const photo = img(id === "mafe" ? "/media/plats/mafe-boeuf.jpg" : "/media/hero/salle-ardoise-nuit.jpg");
+  const alt = id === "mafe" ? altOf(d, photo.src) : d.hero.imageAlt;
   return (
     <article className="px-6 pt-14 pb-24 md:px-10 md:pt-20 md:pb-32">
       <div className="mx-auto grid max-w-6xl gap-12 md:grid-cols-[3fr_2fr] md:gap-20">

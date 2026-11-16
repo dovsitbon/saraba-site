@@ -5,6 +5,7 @@ import { useEffect, useId, useRef, useState } from "react";
 import { motion } from "motion/react";
 import carte from "@/data/carte.json";
 import { Illustration, type IllusId } from "@/components/Illustration";
+import { IllusTag } from "@/components/IllusTag";
 import { useLocale } from "@/components/providers";
 import { altOf, fill, type Dict } from "@/lib/i18n";
 import { price } from "@/lib/format";
@@ -100,6 +101,7 @@ export function Menu({ headingLevel = 3 }: { headingLevel?: 2 | 3 }) {
                     ) : (
                       <Illustration id={it.illustration ?? "assiette"} className="h-full w-full" />
                     )}
+                    {photo && <IllusTag src={photo.src} label={d.carte.illusTag} />}
                   </div>
                   <div className="min-w-0 flex-1">
                     <p className="display text-[1.1875rem] leading-snug">{t.name}</p>
@@ -128,6 +130,7 @@ export function Menu({ headingLevel = 3 }: { headingLevel?: 2 | 3 }) {
           </ul>
         </section>
       ))}
+      <p className="mt-6 text-[0.8125rem] text-muted">{d.carte.illusNote}</p>
     </div>
   );
 }

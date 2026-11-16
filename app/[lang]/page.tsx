@@ -18,6 +18,7 @@ import { BookingForm } from "@/components/BookingForm";
 import { WaxBand } from "@/components/WaxBand";
 import { HoursTable } from "@/components/HoursTable";
 import { Illustration, type IllusId } from "@/components/Illustration";
+import { IllusTag } from "@/components/IllusTag";
 import { ArrowIcon, BagIcon, CalendarIcon, GroupIcon, MoonIcon, PhoneIcon, PinIcon, StarIcon, WheelchairIcon } from "@/components/icons";
 
 function SectionHead({ eyebrow, title, lead, center = false, id }: { eyebrow: string; title: string; lead?: string; center?: boolean; id?: string }) {
@@ -44,14 +45,14 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
   const hero = img("/media/hero/salle-ardoise-nuit.jpg");
   const ardoise = img("/media/plats/ardoise-plats.jpg");
   const chevalet = img("/media/facade/chevalet-rue.jpg");
-  const masques = img("/media/salle/salle-masques-bambou.jpg");
+  const masques = img("/media/salle/bar-masques.jpg");
 
-  const tiles: { id: "entrees" | "plats" | "poissons" | "desserts" | "boissons"; illus: IllusId }[] = [
-    { id: "entrees", illus: "beignets" },
-    { id: "plats", illus: "marmite" },
-    { id: "poissons", illus: "poisson" },
-    { id: "desserts", illus: "fondant" },
-    { id: "boissons", illus: "verre" },
+  const tiles: { id: "entrees" | "plats" | "poissons" | "desserts" | "boissons"; photo: string }[] = [
+    { id: "entrees", photo: "/media/plats/planche-entrees.jpg" },
+    { id: "plats", photo: "/media/plats/mafe-boeuf.jpg" },
+    { id: "poissons", photo: "/media/illustrations/poisson-grille.jpg" },
+    { id: "desserts", photo: "/media/illustrations/fondant.jpg" },
+    { id: "boissons", photo: "/media/salle/cocktails.jpg" },
   ];
   const services = [
     { k: "soir", Icon: MoonIcon },
@@ -101,8 +102,9 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
             {tiles.map((t, i) => (
               <Reveal as="li" key={t.id} delay={i * 0.05}>
                 <Link href={`${carteHref}#${t.id}`} className="group block">
-                  <div className="aspect-[4/5] overflow-hidden rounded-[1.25rem] transition-transform duration-700 ease-[var(--ease-soft)] group-hover:-translate-y-1">
-                    <Illustration id={t.illus} className="h-full w-full" />
+                  <div className="relative aspect-[4/5] overflow-hidden rounded-[1.25rem] bg-nuit transition-transform duration-700 ease-[var(--ease-soft)] group-hover:-translate-y-1">
+                    <Image src={t.photo} alt={altOf(d, t.photo)} fill sizes="(min-width: 1024px) 18vw, (min-width: 640px) 30vw, 46vw" quality={70} className="object-cover" />
+                    <IllusTag src={t.photo} label={d.carte.illusTag} />
                   </div>
                   <p className="display mt-3 flex items-center gap-2 text-[1.25rem] transition-colors group-hover:text-terracotta-ink">
                     {d.tiles[t.id]}
@@ -210,7 +212,10 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                 <Reveal as="li" key={n.id} delay={i * 0.06} className="flex flex-col overflow-hidden rounded-3xl border border-line bg-paper">
                   <div className="relative aspect-[16/9]">
                     {p ? (
-                      <Image src={p.src} alt={altOf(d, p.src)} fill sizes="(min-width: 768px) 30vw, 100vw" quality={70} className="object-cover" />
+                      <>
+                        <Image src={p.src} alt={altOf(d, p.src)} fill sizes="(min-width: 768px) 30vw, 100vw" quality={70} className="object-cover" />
+                        <IllusTag src={p.src} label={d.carte.illusTag} className="bottom-3 start-3" />
+                      </>
                     ) : (
                       <Illustration id={(["poisson", "marmite", "assiette"] as IllusId[])[i % 3]} className="h-full w-full" />
                     )}
@@ -349,7 +354,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               <OpenStatus className="mt-2 text-[0.9375rem] text-muted" />
               <HoursTable lang={lang} d={d} className="mt-3" />
               <p className="mt-4 text-[0.8125rem] text-muted">{d.infos.hoursNote}</p>
-              <div className="relative mt-8 hidden aspect-[4/5] max-w-xs overflow-hidden rounded-3xl bg-nuit md:block">
+              <div className="relative mt-8 hidden aspect-[4/3] max-w-sm overflow-hidden rounded-3xl bg-nuit md:block">
                 <Image src={masques.src} alt={altOf(d, masques.src)} width={masques.width} height={masques.height} sizes="20rem" quality={70} className="h-full w-full object-cover" />
               </div>
             </div>

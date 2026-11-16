@@ -18,6 +18,15 @@ const PICKS = [
   ["raw/saraba_ardoise-salle-nuit.jpg", "plats", "ardoise-plats", { left: 196, top: 520, width: 400, height: 500 }],
   ["raw/saraba_ardoise-salle-nuit.jpg", "salle", "salle-masques-bambou", { left: 560, top: 300, width: 440, height: 560 }],
   ["raw/saraba_chevalet-rue.jpg", "facade", "chevalet-rue"],
+  // Photos réelles du restaurant publiées par des clients sur Tripadvisor et Wheree (voir PHOTOS-SOURCES.md)
+  ["raw/saraba_mafe-boeuf.jpg", "plats", "mafe-boeuf"],
+  ["raw/saraba_yassa-poulet.jpg", "plats", "yassa-poulet"],
+  ["raw/saraba_planche-entrees.jpg", "plats", "planche-entrees"],
+  ["raw/saraba_table-assiettes.jpg", "salle", "table-assiettes"],
+  ["raw/saraba_cocktails.jpg", "salle", "cocktails"],
+  ["raw/saraba_bar-masques.jpg", "salle", "bar-masques", { left: 240, top: 200, width: 640, height: 362 }],
+  // Photos d'illustration Unsplash (licence Unsplash) : jamais présentées comme le restaurant
+  ...["accras", "alokos", "ailes-poulet", "pastels", "thiou-gombo", "mafe-gombo", "boeuf-curry", "poisson-grille", "poisson-sauce", "poisson-citron", "fondant", "glaces", "jus-rouge", "sodas", "eau", "the-menthe"].map((n) => [`stock/${n}.jpg`, "illustrations", n]),
 ];
 
 const sizes = {};
@@ -28,9 +37,9 @@ for (const [src, cat, name, crop] of PICKS) {
   let pipe = sharp(file).rotate();
   if (crop) pipe = pipe.extract(crop);
   const buf = await pipe.toBuffer();
-  await sharp(buf).jpeg({ quality: 92 }).toFile(path.join(ROOT, "assets", cat, `${name}.jpg`));
+  if (cat !== "illustrations") await sharp(buf).jpeg({ quality: 92 }).toFile(path.join(ROOT, "assets", cat, `${name}.jpg`));
   const info = await sharp(buf)
-    .resize({ width: 1800, height: 1800, fit: "inside", withoutEnlargement: true })
+    .resize({ width: cat === "illustrations" ? 1200 : 1800, height: 1800, fit: "inside", withoutEnlargement: true })
     .jpeg({ quality: 86, mozjpeg: true })
     .toFile(path.join(ROOT, "public/media", cat, `${name}.jpg`));
   sizes[`/media/${cat}/${name}.jpg`] = [info.width, info.height];
